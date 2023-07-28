@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
-  postbuild = "cp _redirects dist/"
