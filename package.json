@@ -1,22 +1,12 @@
 {
-  "name": "chapter-12-lets-build-our-store",
+  "name": "crave-hub",
   "version": "1.0.0",
-  "description": "Documenting my learning journey of [Namaste React Live Course](https://learn.namastedev.com/) conducted by Akshay Saini",
+  "description": "A food delivery app using swiggy's live api",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Learn-React-With-Harshi/chapter-12-lets-build-our-store.git"
-  },
-  "author": "Harshitha SV",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Learn-React-With-Harshi/chapter-12-lets-build-our-store/issues"
-  },
-  "homepage": "https://github.com/Learn-React-With-Harshi/chapter-12-lets-build-our-store#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
     "firebase": "^9.17.1",
