@@ -1,11 +1,14 @@
 {
+  "homepage": "https://github.com/ShibashisDolui/Crave-Hub",
   "name": "crave-hub",
   "version": "1.0.0",
   "description": "A food delivery app using swiggy's live api",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
@@ -23,6 +26,7 @@
     "@babel/core": "^7.20.12",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "dotenv": "^16.0.3",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.2",
     "postcss": "^8.4.21",
     "process": "^0.11.10",
